@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    # image: "agarwalvishal/discord-clone:1.1"
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app # Providing a bind mount. "Volumes" key mounts the project directory (current directory) on the host to "/app" inside the container, allowing you to modify the code on the fly, without having to rebuild the image. ref: https://docs.docker.com/compose/gettingstarted/
