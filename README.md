@@ -1,3 +1,13 @@
+# Demo App
+https://discord-clone-d3b0f.web.app
+
+# Docker Script
+
+### `docker-compose up`
+
+Runs the application on your local machine.\
+<b>Note:</b> The backend is linked to firebase so any changes in the local instance also reflects in the hosted firebase application above.
+
 # Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
